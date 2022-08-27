@@ -1,11 +1,16 @@
 <template>
-  <div>Vue 3!!</div>
+  <div>
+  <AboutUs/>
+  </div>
 </template>
 
 <script>
-import AboutUs from "./components/App.vue";
+import AboutUs from './components/AboutUs.vue'
 export default {
   name: "App",
+  components: {
+    AboutUs,
+  }
 };
 </script>
 
