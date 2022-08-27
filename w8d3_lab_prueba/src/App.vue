@@ -1,15 +1,12 @@
 <template>
-    <div>
-        Vue 3!
-    </div>
+  <div>Vue 3!!</div>
 </template>
 
 <script>
+import AboutUs from "./components/App.vue";
 export default {
-    name: 'App',
-}
+  name: "App",
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
